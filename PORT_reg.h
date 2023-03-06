@@ -1,0 +1,17 @@
+#ifndef PORT_REG_H_
+#define PORT_REG_H_
+
+#define DDRA            *((volatile u8*)0x3A)
+#define PORTA           *((volatile u8*)0x3B)
+
+#define DDRB            *((volatile u8*)0x37)
+#define PORTB           *((volatile u8*)0x38)
+
+#define DDRC            *((volatile u8*)0x34)
+#define PORTC           *((volatile u8*)0x35)
+
+#define DDRD            *((volatile u8*)0x31)
+#define PORTD           *((volatile u8*)0x32)
+
+
+#endif
